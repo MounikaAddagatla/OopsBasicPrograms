@@ -1,0 +1,44 @@
+﻿{
+  "Employee": [
+    {
+      "Name": "Lenevo",
+      "NumberOfShares": 25,
+      "Price": 13,
+      "DateTime": ""
+    },
+    {
+      "Name": "Apple",
+      "NumberOfShares": 2,
+      "Price": 10,
+      "DateTime": ""
+    },
+    {
+      "Name":"Nokia",
+      "NumberOfShares": 18,
+      "Price": 100,
+      "DateTime": ""
+    },
+    {
+      "Name": "Iphone",
+      "NumberOfShares": 3,
+      "Price": 10,
+      "DateTime": " "
+    }
+  ],
+  "Accountant": [
+    {
+      "Name": "Hp",
+      "NumberOfShares": 21,
+      "Price": 33,
+      "DateTime": ""
+    }
+  ],
+  "Manager": [
+    {
+      "Name": "DELL",
+      "NumberOfShares": 19,
+      "Price": 80,
+      "DateTime": ""
+    }
+  ]
+}
