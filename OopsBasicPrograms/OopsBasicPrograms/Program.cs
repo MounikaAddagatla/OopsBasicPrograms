@@ -9,7 +9,7 @@ namespace OopsBasicPrograms
         {
             Console.WriteLine("Oops Basic Programs");
             InventoryManagementMain inventoryMain = new InventoryManagementMain();
-            Console.WriteLine("Choose 1.JSONInventoryDataManagement ReadData \n2 InventoryManager");
+            Console.WriteLine("Choose 1.JSONInventoryDataManagement ReadData \n2 InventoryManager \n3 StockManagement " );
             int options = Convert.ToInt32(Console.ReadLine());
             switch (options)
             {
@@ -20,6 +20,10 @@ namespace OopsBasicPrograms
                     inventoryMain.ReadData(@"D:\OopsBasicPrograms\OopsBasicPrograms\OopsBasicPrograms\JsonInventoryModel\Inventory.json");
                     Console.WriteLine("Enter Rice or Wheat or Pulses ");
                     inventoryMain.Display(Console.ReadLine());
+                    break;
+                case 3:
+                    StockManagement.Stock stock = new StockManagement.Stock();
+                    stock.Display(@"D:\OopsBasicPrograms\OopsBasicPrograms\OopsBasicPrograms\StockManagement\Stock.json");
                     break;
                 default:
                     Console.WriteLine("Choose valid option");
